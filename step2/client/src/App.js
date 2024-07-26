@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>확신없는 랜덤 명언</h1>
+      <h1>확신없는 랜덤 명?언</h1>
       <h2>{displayedText ? displayedText : "아직 저장된 명언이 없거나 서버와 연결되지 않았습니다."}</h2>
       <h2>by {displayedAuthor}</h2>
       <form onSubmit={handleSubmit}>
